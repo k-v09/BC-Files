@@ -13,17 +13,26 @@ article {
     border: var(--white);
     border-style: dashed;
     max-width: fit-content;
+    margin: 30px;
+    display: inline-block;
+    position: relative;
+
 }
 
 p {
     margin: 3px;
 }
 
+
+.thead {
+    border: #fff;
+    position: absolute;
+    justify-self: center;
+}
 .sectioner {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .title {
