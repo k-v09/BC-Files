@@ -1,15 +1,35 @@
 :root {
-    --bgc: #69626D;
-    --purp: #A52CEA;
+    --bgc: #777587;
+    --purp: #7626A4;
     --white: #fff;
 }
 
 html {
     background-color: var(--bgc);
+    font-family: 'Courier New', Courier, monospace;
 }
 
+article {
+    border: var(--white);
+    border-style: dashed;
+    max-width: fit-content;
+}
 
+p {
+    margin: 3px;
+}
+
+.sectioner {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
 
 .title {
     color: var(--purp);
+}
+
+.boring {
+    color: var(--white);
 }
