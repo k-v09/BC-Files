@@ -1,0 +1,15 @@
+:root {
+    --bgc: #69626D;
+    --purp: #A52CEA;
+    --white: #fff;
+}
+
+html {
+    background-color: var(--bgc);
+}
+
+
+
+.title {
+    color: var(--purp);
+}
