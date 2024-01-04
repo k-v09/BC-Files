@@ -16,7 +16,7 @@ function isEqual(x, y) {
   // Refer to sample functions as needed!
   
   // TODO: Call the isEqual function so that it logs "They are equal in value"
-  isEqual(10, "10")
+  isEqual(10, "10");
   
   // TODO: Rewrite isEqual as a function expression called 'isEqualTakeTwo`
   function isEqualTakeTwo(x, y) {
@@ -31,4 +31,4 @@ function isEqual(x, y) {
   }
   
   // TODO: Call the isEqualTakeTwo function so that it logs "They are not equal"
-  isEqualTakeTwo(10, 1234567890)
+  isEqualTakeTwo(10, 1234567890);
