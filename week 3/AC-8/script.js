@@ -1,5 +1,5 @@
 // isEqual using function declaration
-function isEqual(x, y) {
+var thisIsNotAGoodUseOfMemory = function isEqual(x, y) {
     if (x === y) {
       console.log('They are equal in type and value');
     } else if (x == y) {
