@@ -1,6 +1,6 @@
 var count = 0;
-var incrementEl = document.querySelector("#increment");
-var decrementEl = document.querySelector("#decrement");
+var inc = document.querySelector("#increment");
+var dec = document.querySelector("#decrement");
 var countEl = document.querySelector("#count");
 
 function setCounterText() {
@@ -8,6 +8,6 @@ function setCounterText() {
 }
 
 // TODO: Add event listener to increment button
-
+inc.addEventListener("mousedown", function(){ count++; setCounterText()});
 // TODO: Add event listener to decrement button 
-
+dec.addEventListener("mousedown", function(){ count--; setCounterText()});
