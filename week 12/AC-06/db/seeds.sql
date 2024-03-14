@@ -4,4 +4,4 @@ VALUES ("Elliot", "Smith", false),
        ("Christoper", "Lee", true),
        ("Verónica", "Rodriguez", false),
        ("Igor", "Ivanov", true);
-       
+
