@@ -1,6 +1,3 @@
 SELECT * FROM favorite_books;
-
-USE favorite_books;
-
-JOIN book_prices ON favorite_books.book_id = book_prices.id;
+JOIN book_prices ON favorite_books.book_price = book_prices.id;
 
